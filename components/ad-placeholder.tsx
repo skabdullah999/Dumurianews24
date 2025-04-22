@@ -56,7 +56,7 @@ export default function AdPlaceholder({ position, className = "" }: AdPlaceholde
       script1.type = "text/javascript"
       script1.innerHTML = `
         atOptions = {
-          'key': 'your_sidebar_key_here', // Sidebar banner key
+          'key': '49c6d52349c59f3928d967e5e202a284', // Sidebar banner key
           'format': 'iframe',
           'height': 600,
           'width': 300,
@@ -65,7 +65,8 @@ export default function AdPlaceholder({ position, className = "" }: AdPlaceholde
       `
       const script2 = document.createElement("script")
       script2.type = "text/javascript"
-      script2.src = "//www.highperformanceformat.com/your_sidebar_key_here/invoke.js"
+      script2.src = "//www.highperformanceformat.com/49c6d52349c59f3928d967e5e202a284/invoke.js"
+
 
       adRef.current.appendChild(script1)
       adRef.current.appendChild(script2)
