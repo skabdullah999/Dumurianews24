@@ -32,7 +32,7 @@ export default function AdPlaceholder({ position, className = "" }: AdPlaceholde
 
   return (
     <div
-      className={`bg-gray-200 border rounded-md flex items-center justify-center ${className}`}
+      className={` border rounded-md flex items-center justify-center ${className}`}
       style={{
         height: position === "sidebar" ? "600px" : "120px",
         width: "100%",
